@@ -1,0 +1,53 @@
+
+.contaner{
+    background-color: #FFFFFF;
+    width: 1000px;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+
+}
+/* influncer section style */
+.influncer-Detiles{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 100px;
+}
+.influncer-hading{
+    font-size: 47px;
+}
+.influncer-banar img{
+    width: 350px;
+
+}
+.influncer-info button{
+    padding: 8px 15px;
+    color:white;
+    background-color:#E02C6D ;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top:10px ;
+}
+.fa-arrow-right{
+    margin-left: 5px;
+
+}
+/* hr and logos style */
+.top-line {
+    border:1px solid #EDF1F4;
+    margin-top: 100px;
+}
+.logo-item{
+    display: grid;
+    grid-template-columns:repeat(7,1fr);
+}
+.bottom-line{
+    border:1px solid #EDF1F4;
+}
+/* populer collaction style */
+.heading{
+    font-size: 30px;
+    text-align: center;
+    margin: 50px;
+}
