@@ -168,7 +168,6 @@ footer{
         grid-template-columns: repeat(1,1fr);
     }
     .influncer-Detiles{
-        background-color: navy;
         grid-template-columns: repeat(1,1fr);
     }
     .influncer-info{
@@ -195,7 +194,6 @@ footer{
             grid-template-columns: repeat(2,1fr);
         }
         .influncer-Detiles{
-            background-color: rgb(5, 70, 70);
             grid-template-columns: repeat(2,1fr);
         }
         .influncer-info{
