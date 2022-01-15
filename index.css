@@ -159,3 +159,56 @@ footer{
 .icon{
     padding: 5px;
 }
+         /* mobile Device Rasponsive  mix-width =688px */
+   @media only screen and (max-width:688px){
+    .contaner{
+        width:100%;
+    }
+    .manubar{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .influncer-Detiles{
+        background-color: navy;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .influncer-info{
+        flex-direction: column;
+    }
+    .influncer-banars{
+        flex-direction: column;
+    }
+    .logo-item{
+        grid-template-columns: repeat(3,1fr);
+         flex-direction: column;
+    }
+    .collaction,.instagram-influncers{
+        grid-template-columns: repeat(1,1fr);
+        flex-direction: column;
+    }
+   }
+    /* tablat Device Rasponsive min=688 and max width=992 */
+    @media only screen and (min-width:688px) and (max-width:992px){
+        .contaner{
+            width:100%;
+        }
+        .manubar{
+            grid-template-columns: repeat(2,1fr);
+        }
+        .influncer-Detiles{
+            background-color: rgb(5, 70, 70);
+            grid-template-columns: repeat(2,1fr);
+        }
+        .influncer-info{
+            flex-direction: column;
+        }
+        .influncer-banars{
+            flex-direction: column;
+        }
+        .logo-item{
+            grid-template-columns: repeat(3,1fr);
+            flex-direction: column;
+        }
+        .collaction,.instagram-influncers{
+            grid-template-columns: repeat(2,1fr); 
+        } 
+    }
