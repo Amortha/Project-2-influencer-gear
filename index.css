@@ -33,6 +33,12 @@
 .manubar-right ul li a .fa-accessible-icon{
     font-size: 25px;
 }
+#manu{
+    display: none;
+}
+.manu-tragal-icon{
+    display: none;
+}
         /* influncer section style */
 .influncer-Detiles{
     display: grid;
@@ -164,6 +170,24 @@ footer{
     .contaner{
         width:100%;
     }
+    .manu-tragal-icon{
+        display: block;
+        color: black;
+    }
+    .manu-list{
+        display: block;
+        position: absolute;
+        width: 100%;
+        /* flex-direction: column; */
+        top: 100px; 
+        left:0px ;
+        /* align-items:center; */
+        transform: translatey(-350px);
+        transition: .7s ease-in-out;
+    }
+    #manu:checked ~ .manu-list{
+        transform: translatey(0px);
+    }
     .manubar{
         grid-template-columns: repeat(1,1fr);
     }
@@ -177,7 +201,7 @@ footer{
         flex-direction: column;
     }
     .logo-item{
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(2,1fr);
          flex-direction: column;
     }
     .collaction,.instagram-influncers{
@@ -203,7 +227,7 @@ footer{
             flex-direction: column;
         }
         .logo-item{
-            grid-template-columns: repeat(3,1fr);
+            grid-template-columns: repeat(4,1fr);
             flex-direction: column;
         }
         .collaction,.instagram-influncers{
