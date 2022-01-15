@@ -49,9 +49,13 @@
     font-size: 47px;
 }
 .influncer-banar img{
-    width: 350px;
+    width: 450px;
 }
 .influncer-banars{
+    width: 100%;
+    height: 100%;
+    border: 2px solid #EDF1F4;
+    border-radius: 100%;
     overflow: hidden;
 }
 .influncer-banar:hover{
@@ -119,6 +123,13 @@ padding: 12px;
 }
 .contan{
     color: #787885;
+}
+.see-more a{
+    text-decoration: none;
+    color: #f1065c;
+    font-size: 20px;
+    float: right;
+    margin-top: 30px;
 }
     /* Explore naw instagram influencers section style */
 .instagram-influncers{
